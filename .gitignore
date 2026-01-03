@@ -1,0 +1,67 @@
+# Credit Card Fraud Detection - .gitignore
+
+# Virtual environments
+venv/
+venv-fdh/
+env/
+ENV/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Data files (too large for GitHub, generated locally)
+transactions.csv
+cardholders.csv
+
+# Generated results (users generate these themselves)
+results/*.csv
+results/*.png
+*.png
+*.csv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Private reference materials (not for public repo)
+# These are internal notes, not part of the project deliverables
+TECHNICAL_NOTES.md
+*_QA.md
+FEEDBACK_RESPONSE.md
+POST_HOC_BLOCKING_APPROACH.md
+PROJECT_POSITIONING_AND_REFERENCES.md
+SIMPLIFIED_BLOCKING_AND_REQUIREMENTS.md
+NOTEBOOK_UPDATE_OPTIONS.md
+
+# Launch materials (personal use, not for repo)
+launch-materials/
+LINKEDIN_POST_SERIES.md
+RESUME_PORTFOLIO_TEXT.md
+FILE_ACCESS_AND_TESTING_GUIDE.md
+SIMPLE_DOWNLOAD_GUIDE.md
+FINAL_IMPLEMENTATION_SUMMARY.md
